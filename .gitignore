@@ -1,0 +1,10 @@
+# Python cache files and folders
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite database
+db.sqlite3
+
+# Documentation / temp files
+docs.txt
