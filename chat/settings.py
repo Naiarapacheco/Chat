@@ -59,7 +59,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'chat.wsgi.application'
-
+ASGI_APPLICATION = 'chat.asgi.application' # For long running connections
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
