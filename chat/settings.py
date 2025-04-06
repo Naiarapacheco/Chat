@@ -15,6 +15,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+LOGIN_URL = '/login/'
+LOGIN_REDIRECT_URL = '/chats/'
+LOGOUT_REDIRECT_URL = '/'
 
 # Application definition
 
@@ -80,13 +83,13 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
         'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+    },
+    {
+        'NAME': 'chat_app.validators.StrongPasswordValidator', 
     },
 ]
 
@@ -94,7 +97,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
