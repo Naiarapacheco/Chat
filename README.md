@@ -1,5 +1,3 @@
-# Chat em Tempo Real com Django e WebSockets
-
 ## Descrição
 Este projeto é uma aplicação de chat em tempo real desenvolvida com Django e Django Channels. Ele permite que usuários autenticados participem de salas de bate-papo, troquem mensagens instantaneamente via WebSockets e que essas mensagens sejam armazenadas no banco de dados.
 
