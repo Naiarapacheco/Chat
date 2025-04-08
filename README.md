@@ -1,5 +1,3 @@
-# Chat em Tempo Real com Django e WebSockets
-
 ## Descrição
 Este projeto é uma aplicação de chat em tempo real desenvolvida com Django e Django Channels. Ele permite que usuários autenticados participem de salas de bate-papo, troquem mensagens instantaneamente via WebSockets e que essas mensagens sejam armazenadas no banco de dados.
 
@@ -20,7 +18,7 @@ Este projeto é uma aplicação de chat em tempo real desenvolvida com Django e 
 ## Instalação
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/Naiarapacheco/Chat-web.git
+git clone https://github.com/Naiarapacheco/Chat.git
 ```
 
 2. **Instale as dependências**
@@ -33,7 +31,7 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-5. **(Opcional) Crie um superusuário**
+5. **Crie um superusuário**
 ```bash
 python manage.py createsuperuser
 ```
