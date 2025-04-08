@@ -18,7 +18,7 @@ Este projeto é uma aplicação de chat em tempo real desenvolvida com Django e 
 ## Instalação
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/Naiarapacheco/Chat-web.git
+git clone https://github.com/Naiarapacheco/Chat.git
 ```
 
 2. **Instale as dependências**
