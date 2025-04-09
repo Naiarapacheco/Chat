@@ -40,10 +40,3 @@ python manage.py createsuperuser
 ```bash
 .\run_daphne.bat 
 ```
-
-## Como Usar
-- Acesse `http://127.0.0.1:8000`
-- Registre-se ou faça login
-- Navegue até `/chats/` e entre em uma sala
-
-
